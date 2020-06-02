@@ -1,3 +1,21 @@
+/*
+    style.css
+    -----------
+    Main stylesheet for OhMUN 2020.
+*/
+
+/*  Font Imports
+    -------------
+    sans-serif - Montserrat (prefer), Roboto
+    serif - Cormorant
+*/
+
+/*@import url("https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,600,700|Roboto:300|Cormorant");
+*/@font-face {
+	font-family: Quicksand-Bold;
+    src: url(fonts/Quicksand-Bold);
+}
+
 /* Base */
 html {
 	scroll-behavior: smooth;
@@ -47,14 +65,17 @@ body {
   color: rgba(0, 0, 0, 0.5);
   font-weight: 400;
   font-size: 1rem;
-  font-family: "Roboto Mono", SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-  font-family: "Work Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
+  /*font-family: "Roboto Mono", SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-family: "Work Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  */font: "Quicksand-Bold";
+  -webkit-animation: fadein 1s;
+  -moz-animation: fadein 1s;
+  -ms-animation: fadein 1s;
+  -o-animation: fadein 1s;
+  animation: fadein 1s;
 
-  -webkit-animation: fadein 2s;
-  -moz-animation: fadein 2s;
-  -ms-animation: fadein 2s;
-  -o-animation: fadein 2s;
-  animation: fadein 2s;
+  transition: 5s ease-in-out !important;
+  text-transform: lowercase; }
 
 ::-webkit-selection {
   background: rgba(255, 255, 255, 0);
@@ -118,7 +139,8 @@ a {
 
 .btn {
   position: relative;
-  top: 0; }
+  top: 0;
+  border-width: 0; }
   .btn:hover, .btn:active, .btn:focus {
     outline: none;
     -webkit-box-shadow: none !important;
@@ -151,7 +173,7 @@ a {
   background: #000; }
 
 .bg-oh {
-	background: rgba(239, 93, 52, 1);
+	background: rgba(239, 93, 52, 1) !important;
 }
 
 .form-control {
@@ -195,16 +217,16 @@ a {
     background: #f23a2e; }
 
 .site-footer {
-  padding: 4em 0;
+  padding: 2em 0;
   background-size: cover;
-  background-position: center center;
+  background-position: bottom center;
   background-repeat: no-repeat;
   color: rgba(255, 255, 255, 0.5);
   position: relative; }
   .site-footer:before {
     position: absolute;
     content: "";
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0, 0);
     top: 0;
     left: 0;
     right: 0;
@@ -573,8 +595,10 @@ a {
 /* Blocks */
 .site-blocks-cover {
   background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center; }
+  background-color: rgba(239, 94, 52, 1);
+  color: rgba(0, 0, 0, 0.8); }
+.site-blocks-cover:before {
+	color: rgba(0, 0, 0, 0.8); }
   .site-blocks-cover.overlay {
     position: relative; }
     .site-blocks-cover.overlay:before {
@@ -583,8 +607,7 @@ a {
       left: 0;
       bottom: 0;
       right: 0;
-      top: 0;
-      background: rgba(0, 0, 0, 0.4); }
+      top: 0; }
   .site-blocks-cover, .site-blocks-cover .row {
     min-height: 600px;
     height: calc(100vh); }
@@ -1476,7 +1499,7 @@ a {
   display: inline-block; }
 
 .profile-block .heading {
-  font-size: 18px; }
+  font-size: 30px; }
   .profile-block .heading a {
     color: #000; }
 
@@ -1494,3 +1517,7 @@ a {
     -webkit-transform: scale(1.05);
     -ms-transform: scale(1.05);
     transform: scale(1.05); }
+
+.icon-size {
+	font-size: 40px !important;
+}
