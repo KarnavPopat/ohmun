@@ -307,6 +307,10 @@ a {
     height: 2px;
     background: #f23a2e; }
 
+.section-title {
+  font-size: 40px;
+}
+
 .site-footer {
   padding: 2em 0;
   background-size: cover;
