@@ -152,7 +152,7 @@ body {
   color: rgba(0, 0, 0, 0.5);
   font-weight: 400;
   font-size: 1rem;
-  font-family: 'Avenir Next Rounded Std';
+  font-family: 'Avenir Next Rounded Std', sans-serif;
   font-weight: normal;
   -webkit-animation: fadein 1s;
   -moz-animation: fadein 1s;
