@@ -728,10 +728,16 @@ a {
 
 .site-block-half .image, .site-block-half .text {
   width: 100%;
-  height: 640px; }
+  height: 640px;
+  overflow: hidden; }
   @media (min-width: 992px) {
     .site-block-half .image, .site-block-half .text {
       width: 50%; } }
+
+@media (max-width: 768px) {
+  .comm-intro {
+    font-size: 0.8rem;
+}}
 
 @media (max-width: 991.98px) {
   .site-block-half .image {
