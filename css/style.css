@@ -1573,10 +1573,21 @@ a {
   font-size: 15px;
   position: absolute;
   top: 50%;
-  left: 45%;
+  left: 50%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: left;
   width: 75%;
+
+}
+
+@media (min-width: 768px) {
+    .to-11 {
+      font-size: 11px; 
+}
+
+@media (min-width: 768px) {
+    .to-14 {
+      font-size: 14px; 
 }
