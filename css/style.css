@@ -161,7 +161,8 @@ body {
   animation: fadein 1s;
 
   transition: 5s ease-in-out !important;
-  text-transform: lowercase; }
+  text-transform: lowercase; 
+}
 
 ::-webkit-selection {
   background: rgba(255, 255, 255, 0);
