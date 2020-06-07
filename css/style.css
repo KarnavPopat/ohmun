@@ -1591,3 +1591,13 @@ a {
     .to-14 {
       font-size: 14px; 
 }
+
+@media (min-width: 768px) {
+    .sg-frame {
+      height: 500px; 
+}
+
+@media (min-width: 992px) {
+    .sg-frame {
+      height: 600px; 
+}
