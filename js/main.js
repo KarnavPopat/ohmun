@@ -337,13 +337,6 @@ jQuery(document).ready(function($) {
 
 });
 
-  $(".fader").hover(
-  function () {
-    $(this).addClass("profile-text");
-  },
-  function () {
-    $(this).removeClass("profile-pic");
-  }
-);
+
 
 document.addEventListener('contextmenu', event => event.preventDefault());
