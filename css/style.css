@@ -11,96 +11,96 @@
 /**********************   Main Font  *****************/
 @font-face {
     font-family: 'Avenir Next Rounded Std';
-    src: url('AvenirNextRoundedStd-Italic.eot');
-    src: local('Avenir Next Rounded Std Italic'), local('AvenirNextRoundedStd-Italic'),
-        url('AvenirNextRoundedStd-Italic.eot?#iefix') format('embedded-opentype'),
-        url('AvenirNextRoundedStd-Italic.woff2') format('woff2'),
-        url('AvenirNextRoundedStd-Italic.woff') format('woff'),
-        url('AvenirNextRoundedStd-Italic.ttf') format('truetype');
+    src: url('/fonts/main/AvenirNextRoundedStd-Italic.eot');
+    src: local('/fonts/main/Avenir Next Rounded Std Italic'), local('/fonts/main/AvenirNextRoundedStd-Italic'),
+        url('/fonts/main/AvenirNextRoundedStd-Italic.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/main/AvenirNextRoundedStd-Italic.woff2') format('woff2'),
+        url('/fonts/main/AvenirNextRoundedStd-Italic.woff') format('woff'),
+        url('/fonts/main/AvenirNextRoundedStd-Italic.ttf') format('truetype');
     font-weight: normal;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'Avenir Next Rounded Std';
-    src: url('AvenirNextRoundedStd-BoldIt.eot');
-    src: local('Avenir Next Rounded Std Bold Italic'), local('AvenirNextRoundedStd-BoldIt'),
-        url('AvenirNextRoundedStd-BoldIt.eot?#iefix') format('embedded-opentype'),
-        url('AvenirNextRoundedStd-BoldIt.woff2') format('woff2'),
-        url('AvenirNextRoundedStd-BoldIt.woff') format('woff'),
-        url('AvenirNextRoundedStd-BoldIt.ttf') format('truetype');
+    src: url('/fonts/main/AvenirNextRoundedStd-BoldIt.eot');
+    src: local('/fonts/main/Avenir Next Rounded Std Bold Italic'), local('/fonts/main/AvenirNextRoundedStd-BoldIt'),
+        url('/fonts/main/AvenirNextRoundedStd-BoldIt.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/main/AvenirNextRoundedStd-BoldIt.woff2') format('woff2'),
+        url('/fonts/main/AvenirNextRoundedStd-BoldIt.woff') format('woff'),
+        url/fonts/main/('/fonts/main/AvenirNextRoundedStd-BoldIt.ttf') format('truetype');
     font-weight: bold;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'Avenir Next Rounded Std';
-    src: url('AvenirNextRoundedStd-Reg.eot');
-    src: local('Avenir Next Rounded Std Regular'), local('AvenirNextRoundedStd-Reg'),
-        url('AvenirNextRoundedStd-Reg.eot?#iefix') format('embedded-opentype'),
-        url('AvenirNextRoundedStd-Reg.woff2') format('woff2'),
-        url('AvenirNextRoundedStd-Reg.woff') format('woff'),
-        url('AvenirNextRoundedStd-Reg.ttf') format('truetype');
+    src: url('/fonts/main/AvenirNextRoundedStd-Reg.eot');
+    src: local('/fonts/main/Avenir Next Rounded Std Regular'), local('/fonts/main/AvenirNextRoundedStd-Reg'),
+        url('/fonts/main/AvenirNextRoundedStd-Reg.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/main/AvenirNextRoundedStd-Reg.woff2') format('woff2'),
+        url('/fonts/main/AvenirNextRoundedStd-Reg.woff') format('woff'),
+        url('/fonts/main/AvenirNextRoundedStd-Reg.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Avenir Next Rounded Std';
-    src: url('AvenirNextRoundedStd-Med.eot');
-    src: local('Avenir Next Rounded Std Medium'), local('AvenirNextRoundedStd-Med'),
-        url('AvenirNextRoundedStd-Med.eot?#iefix') format('embedded-opentype'),
-        url('AvenirNextRoundedStd-Med.woff2') format('woff2'),
-        url('AvenirNextRoundedStd-Med.woff') format('woff'),
-        url('AvenirNextRoundedStd-Med.ttf') format('truetype');
+    src: url('/fonts/main/AvenirNextRoundedStd-Med.eot');
+    src: local('/fonts/main/Avenir Next Rounded Std Medium'), local('/fonts/main/AvenirNextRoundedStd-Med'),
+        url('/fonts/main/AvenirNextRoundedStd-Med.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/main/AvenirNextRoundedStd-Med.woff2') format('woff2'),
+        url('/fonts/main/AvenirNextRoundedStd-Med.woff') format('woff'),
+        url('/fonts/main/AvenirNextRoundedStd-Med.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Avenir Next Rounded Std';
-    src: url('AvenirNextRoundedStd-DemiIt.eot');
-    src: local('Avenir Next Rounded Std Demi Italic'), local('AvenirNextRoundedStd-DemiIt'),
-        url('AvenirNextRoundedStd-DemiIt.eot?#iefix') format('embedded-opentype'),
-        url('AvenirNextRoundedStd-DemiIt.woff2') format('woff2'),
-        url('AvenirNextRoundedStd-DemiIt.woff') format('woff'),
-        url('AvenirNextRoundedStd-DemiIt.ttf') format('truetype');
+    src: url('/fonts/main/AvenirNextRoundedStd-DemiIt.eot');
+    src: local('Avenir Next Rounded Std Demi Italic'), local('/fonts/main/AvenirNextRoundedStd-DemiIt'),
+        url('/fonts/main/AvenirNextRoundedStd-DemiIt.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/main/AvenirNextRoundedStd-DemiIt.woff2') format('woff2'),
+        url('/fonts/main/AvenirNextRoundedStd-DemiIt.woff') format('woff'),
+        url('/fonts/main/AvenirNextRoundedStd-DemiIt.ttf') format('truetype');
     font-weight: bold;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'Avenir Next Rounded Std';
-    src: url('AvenirNextRoundedStd-MedIt.eot');
-    src: local('Avenir Next Rounded Std Medium Italic'), local('AvenirNextRoundedStd-MedIt'),
-        url('AvenirNextRoundedStd-MedIt.eot?#iefix') format('embedded-opentype'),
-        url('AvenirNextRoundedStd-MedIt.woff2') format('woff2'),
-        url('AvenirNextRoundedStd-MedIt.woff') format('woff'),
-        url('AvenirNextRoundedStd-MedIt.ttf') format('truetype');
+    src: url('/fonts/main/AvenirNextRoundedStd-MedIt.eot');
+    src: local('Avenir Next Rounded Std Medium Italic'), local('/fonts/main/AvenirNextRoundedStd-MedIt'),
+        url('/fonts/main/AvenirNextRoundedStd-MedIt.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/main/AvenirNextRoundedStd-MedIt.woff2') format('woff2'),
+        url('/fonts/main/AvenirNextRoundedStd-MedIt.woff') format('woff'),
+        url('/fonts/main/AvenirNextRoundedStd-MedIt.ttf') format('truetype');
     font-weight: 500;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'Avenir Next Rounded Std';
-    src: url('AvenirNextRoundedStd-Demi.eot');
-    src: local('Avenir Next Rounded Std Demi'), local('AvenirNextRoundedStd-Demi'),
-        url('AvenirNextRoundedStd-Demi.eot?#iefix') format('embedded-opentype'),
-        url('AvenirNextRoundedStd-Demi.woff2') format('woff2'),
-        url('AvenirNextRoundedStd-Demi.woff') format('woff'),
-        url('AvenirNextRoundedStd-Demi.ttf') format('truetype');
+    src: url('/fonts/main/AvenirNextRoundedStd-Demi.eot');
+    src: local('/fonts/main/Avenir Next Rounded Std Demi'), local('/fonts/main/AvenirNextRoundedStd-Demi'),
+        url('/fonts/main/AvenirNextRoundedStd-Demi.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/main/AvenirNextRoundedStd-Demi.woff2') format('woff2'),
+        url('/fonts/main/AvenirNextRoundedStd-Demi.woff') format('woff'),
+        url('/fonts/main/AvenirNextRoundedStd-Demi.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Avenir Next Rounded Std';
-    src: url('AvenirNextRoundedStd-Bold.eot');
-    src: local('Avenir Next Rounded Std Bold'), local('AvenirNextRoundedStd-Bold'),
-        url('AvenirNextRoundedStd-Bold.eot?#iefix') format('embedded-opentype'),
-        url('AvenirNextRoundedStd-Bold.woff2') format('woff2'),
-        url('AvenirNextRoundedStd-Bold.woff') format('woff'),
-        url('AvenirNextRoundedStd-Bold.ttf') format('truetype');
+    src: url('/fonts/main/AvenirNextRoundedStd-Bold.eot');
+    src: local('Avenir Next Rounded Std Bold'), local('/fonts/main/AvenirNextRoundedStd-Bold'),
+        url('/fonts/main/AvenirNextRoundedStd-Bold.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/main/AvenirNextRoundedStd-Bold.woff2') format('woff2'),
+        url('/fonts/main/AvenirNextRoundedStd-Bold.woff') format('woff'),
+        url('/fonts/main/AvenirNextRoundedStd-Bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
 }
@@ -109,7 +109,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
 
 
-
+/fonts/main/
 /**********************   BEGINNING CUSTOM STYLE SELECTORS  *****************/
 .renormal {
   text-transform: none;
