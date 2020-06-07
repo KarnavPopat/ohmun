@@ -288,9 +288,9 @@ jQuery(document).ready(function($) {
 	var siteCountDown = function() {
 
 		if ( $('#date-countdown').length > 0 ) {
-			$('#date-countdown').countdown('2020/10/10', function(event) {
+			$('#date-countdown').countdown('2020/6/20', function(event) {
 			  var $this = $(this).html(event.strftime(''
-			    + '<span class="countdown-block"><span class="label">%w</span> weeks </span>'
+			    + '<span class="countdown-block"><span class="label">%w</span> week </span>'
 			    + '<span class="countdown-block"><span class="label">%d</span> days </span>'
 			    + '<span class="countdown-block"><span class="label">%H</span> hr </span>'
 			    + '<span class="countdown-block"><span class="label">%M</span> min </span>'
@@ -336,5 +336,14 @@ jQuery(document).ready(function($) {
 	});
 
 });
+
+  $(".fader").hover(
+  function () {
+    $(this).addClass("profile-text");
+  },
+  function () {
+    $(this).removeClass("profile-pic");
+  }
+);
 
 document.addEventListener('contextmenu', event => event.preventDefault());
