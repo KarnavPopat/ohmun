@@ -4,104 +4,25 @@
     Main stylesheet for OhMUN 2020.
 */
 
-/*@import url("https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,600,700|Roboto:300|Cormorant");
-*/@font-face {
-    font-family: 'Avenir Next Rounded Std';
-    src: url('AvenirNextRoundedStd-Italic.eot');
-    src: local('Avenir Next Rounded Std Italic'), local('AvenirNextRoundedStd-Italic'),
-        url('AvenirNextRoundedStd-Italic.eot?#iefix') format('embedded-opentype'),
-        url('AvenirNextRoundedStd-Italic.woff2') format('woff2'),
-        url('AvenirNextRoundedStd-Italic.woff') format('woff'),
-        url('AvenirNextRoundedStd-Italic.ttf') format('truetype');
-    font-weight: normal;
-    font-style: italic;
-}
+/*Main Fonts at css/ and stylesheet.css*/
 
-@font-face {
-    font-family: 'Avenir Next Rounded Std';
-    src: url('AvenirNextRoundedStd-BoldIt.eot');
-    src: local('Avenir Next Rounded Std Bold Italic'), local('AvenirNextRoundedStd-BoldIt'),
-        url('AvenirNextRoundedStd-BoldIt.eot?#iefix') format('embedded-opentype'),
-        url('AvenirNextRoundedStd-BoldIt.woff2') format('woff2'),
-        url('AvenirNextRoundedStd-BoldIt.woff') format('woff'),
-        url('AvenirNextRoundedStd-BoldIt.ttf') format('truetype');
-    font-weight: bold;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Avenir Next Rounded Std';
-    src: url('AvenirNextRoundedStd-Reg.eot');
-    src: local('Avenir Next Rounded Std Regular'), local('AvenirNextRoundedStd-Reg'),
-        url('AvenirNextRoundedStd-Reg.eot?#iefix') format('embedded-opentype'),
-        url('AvenirNextRoundedStd-Reg.woff2') format('woff2'),
-        url('AvenirNextRoundedStd-Reg.woff') format('woff'),
-        url('AvenirNextRoundedStd-Reg.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Avenir Next Rounded Std';
-    src: url('AvenirNextRoundedStd-Med.eot');
-    src: local('Avenir Next Rounded Std Medium'), local('AvenirNextRoundedStd-Med'),
-        url('AvenirNextRoundedStd-Med.eot?#iefix') format('embedded-opentype'),
-        url('AvenirNextRoundedStd-Med.woff2') format('woff2'),
-        url('AvenirNextRoundedStd-Med.woff') format('woff'),
-        url('AvenirNextRoundedStd-Med.ttf') format('truetype');
-    font-weight: 500;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Avenir Next Rounded Std';
-    src: url('AvenirNextRoundedStd-DemiIt.eot');
-    src: local('Avenir Next Rounded Std Demi Italic'), local('AvenirNextRoundedStd-DemiIt'),
-        url('AvenirNextRoundedStd-DemiIt.eot?#iefix') format('embedded-opentype'),
-        url('AvenirNextRoundedStd-DemiIt.woff2') format('woff2'),
-        url('AvenirNextRoundedStd-DemiIt.woff') format('woff'),
-        url('AvenirNextRoundedStd-DemiIt.ttf') format('truetype');
-    font-weight: bold;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Avenir Next Rounded Std';
-    src: url('AvenirNextRoundedStd-MedIt.eot');
-    src: local('Avenir Next Rounded Std Medium Italic'), local('AvenirNextRoundedStd-MedIt'),
-        url('AvenirNextRoundedStd-MedIt.eot?#iefix') format('embedded-opentype'),
-        url('AvenirNextRoundedStd-MedIt.woff2') format('woff2'),
-        url('AvenirNextRoundedStd-MedIt.woff') format('woff'),
-        url('AvenirNextRoundedStd-MedIt.ttf') format('truetype');
-    font-weight: 500;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Avenir Next Rounded Std';
-    src: url('AvenirNextRoundedStd-Demi.eot');
-    src: local('Avenir Next Rounded Std Demi'), local('AvenirNextRoundedStd-Demi'),
-        url('AvenirNextRoundedStd-Demi.eot?#iefix') format('embedded-opentype'),
-        url('AvenirNextRoundedStd-Demi.woff2') format('woff2'),
-        url('AvenirNextRoundedStd-Demi.woff') format('woff'),
-        url('AvenirNextRoundedStd-Demi.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Avenir Next Rounded Std';
-    src: url('AvenirNextRoundedStd-Bold.eot');
-    src: local('Avenir Next Rounded Std Bold'), local('AvenirNextRoundedStd-Bold'),
-        url('AvenirNextRoundedStd-Bold.eot?#iefix') format('embedded-opentype'),
-        url('AvenirNextRoundedStd-Bold.woff2') format('woff2'),
-        url('AvenirNextRoundedStd-Bold.woff') format('woff'),
-        url('AvenirNextRoundedStd-Bold.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-}
-
+/* Fallback Font*/
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+
+/**********************   BEGINNING CUSTOM STYLE SELECTORS  *****************/
+.overlay-hero {
+  box-shadow: inset 0 0 0 100vw rgba(0,0,0,0.5); /*Overlay Effect */
+}
+.btn-padding {
+  padding: .8rem 1.5rem !important;
+}
+.btn-padding:hover {
+  padding: .8rem 2rem !important;
+}
+.section-title-small {
+  font-size: 2.8rem;
+}
+/**********************   END OF CUSTOM STYLE SELECTORS  *****************/
 
 /* Base */
 html {
@@ -161,7 +82,8 @@ body {
   animation: fadein 1s;
 
   transition: 5s ease-in-out !important;
-  text-transform: lowercase; }
+  text-transform: lowercase; 
+}
 
 ::-webkit-selection {
   background: rgba(255, 255, 255, 0);
@@ -279,7 +201,7 @@ a {
     padding: 4em 0; }
 
 .site-section-heading {
-  font-size: 30px;
+  font-size: 3.4rem;
   color: #25262a;
   position: relative; }
   .site-section-heading:before {
@@ -303,7 +225,7 @@ a {
     background: #f23a2e; }
 
 .section-title {
-  font-size: 40px;
+  font-size: 3.4rem;
 }
 
 .site-footer {
@@ -329,6 +251,10 @@ a {
       color: #fff; }
   .site-footer ul li {
     margin-bottom: 10px; }
+
+.designer-link a {
+  color: rgba(239, 93, 52, 1);
+} 
 
 .bg-text-line {
   display: inline;
