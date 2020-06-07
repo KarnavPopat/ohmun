@@ -5,6 +5,7 @@
 */
 
 /*Main Fonts at css/ and stylesheet.css*/
+@import url("css/stylesheet.css");
 
 /* Fallback Font*/
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
@@ -1584,12 +1585,12 @@ a {
 
 @media (min-width: 768px) {
     .to-11 {
-      font-size: 11px; 
+      font-size: 10px; 
 }
 
 @media (min-width: 768px) {
     .to-14 {
-      font-size: 14px; 
+      font-size: 13px; 
 }
 
 @media (min-width: 768px) {
