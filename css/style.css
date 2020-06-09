@@ -1518,12 +1518,15 @@ a {
   padding-left: 30px; }
 
 .caption {
-  text-transform: uppercase;
-  letter-spacing: .2em;
-  font-size: 12px;
+  text-transform: lowercase;
+  font-size: 20px;
   padding: 7px 10px;
   color: #fff;
   display: inline-block; }
+
+.heading-small {
+  font-size: 30px;
+}
 
 .profile-block .heading {
   font-size: 30px; }
