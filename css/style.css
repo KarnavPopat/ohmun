@@ -1550,6 +1550,7 @@ a {
 
 .heading-small {
   font-size: 30px;
+  font-family: 'Avenir Next Rounded Std Demi' !important;
 }
 
 .profile-block .heading {
@@ -1641,9 +1642,9 @@ a {
 }
 
 .demi {
-  font-family: 'Avenir Next Rounded Std Demi', 'Avenir Next Rounded Std Regular';
+  font-family: 'Avenir Next Rounded Std Demi' !important;
 }
 
 .italic {
-  font-family: 'Avenir Next Rounded Std Medium Italic', 'Avenir Next Rounded Std Regular';
+  font-family: 'Avenir Next Rounded Std Medium Italic' !important;
 }
