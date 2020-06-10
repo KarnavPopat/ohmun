@@ -5,7 +5,29 @@
 */
 
 /*Main Fonts at css/ and stylesheet.css*/
-@import url("stylesheet.css");
+@font-face {
+    font-family: 'Avenir Next Rounded Std Regular';
+    src: local('Avenir Next Rounded Std Regular'), local('AvenirNextRoundedStd-Reg'),
+        url('AvenirNextRoundedStd-Reg.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir Next Rounded Std Medium Italic';
+    src: local('Avenir Next Rounded Std Medium Italic'), local('AvenirNextRoundedStd-MedIt'),
+        url('AvenirNextRoundedStd-MedIt.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Avenir Next Rounded Std Demi';
+    src: local('Avenir Next Rounded Std Demi'), local('AvenirNextRoundedStd-Demi'),
+        url('AvenirNextRoundedStd-Demi.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
 
 /* Fallback Font*/
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
@@ -22,6 +44,7 @@
 }
 .section-title-small {
   font-size: 2rem;
+  font-family: 'Avenir Next Rounded Std Demi', 'Avenir Next Rounded Std Regular';
 }
 /**********************   END OF CUSTOM STYLE SELECTORS  *****************/
 
@@ -75,7 +98,7 @@ body {
   font-weight: 400;
   font-size: 1rem;
   font-family: 'Nunito', sans-serif;
-  font-family: 'Avenir Next Rounded Std', sans-serif;
+  font-family: 'Avenir Next Rounded Std Regular', sans-serif;
   font-weight: normal;
   -webkit-animation: fadein 1s;
   -moz-animation: fadein 1s;
@@ -1345,8 +1368,9 @@ a {
   flex: 0 0 80px; }
 
 .block-testimony blockquote {
-  font-size: 1rem;
-  font-style: italic; }
+  font-size: 1rem;  
+  font-family: 'Avenir Next Rounded Std Medium Italic', 'Avenir Next Rounded Std Regular';
+ }
 
 .block-trainer {
   position: relative;
@@ -1556,6 +1580,7 @@ a {
 
 .section-title {
   font-size: 40px;
+  font-family: 'Avenir Next Rounded Std Demi', 'Avenir Next Rounded Std Regular';
 }
 
 .cont {
@@ -1613,4 +1638,12 @@ a {
 @media (min-width: 992px) {
     .sg-frame {
       height: 600px; 
+}
+
+.demi {
+  font-family: 'Avenir Next Rounded Std Demi', 'Avenir Next Rounded Std Regular';
+}
+
+.italic {
+  font-family: 'Avenir Next Rounded Std Medium Italic', 'Avenir Next Rounded Std Regular';
 }
