@@ -1555,7 +1555,7 @@ a {
 
 .profile-block .heading {
   font-size: 30px; }
-  .profile-block .heading a {
+  .profile-block .heading a { 
     color: #000; }
 
 .profile-block > .thumbnail {
